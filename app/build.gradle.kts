@@ -2,14 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.safeargs)
 }
 
 android {
-    namespace = "com.bignerdranch.android.chapter_twelve"
+    namespace = "com.bignerdranch.android.chapter_thirteen"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bignerdranch.android.chapter_twelve"
+        applicationId = "com.bignerdranch.android.chapter_thirteen"
         minSdk = 34
         targetSdk = 34
         versionCode = 1
@@ -60,6 +61,10 @@ dependencies {
     //KSP
     ksp(libs.moshi.kotlin.codegen)
     ksp(libs.androidx.room.compiler)
+
+    //Navigation
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

@@ -1,7 +1,6 @@
-package com.bignerdranch.android.chapter_twelve
+package com.bignerdranch.android.chapter_thirteen
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,8 +10,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bignerdranch.android.chapter_twelve.databinding.FragmentCrimeListBinding
-import kotlinx.coroutines.Job
+import com.bignerdranch.android.chapter_thirteen.databinding.FragmentCrimeListBinding
 import kotlinx.coroutines.launch
 
 private const val TAG = "CrimeListFragment"

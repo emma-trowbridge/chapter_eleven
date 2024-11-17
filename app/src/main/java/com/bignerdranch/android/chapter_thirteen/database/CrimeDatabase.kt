@@ -1,9 +1,8 @@
-package com.bignerdranch.android.chapter_twelve.database
+package com.bignerdranch.android.chapter_thirteen.database
 
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverter
 import androidx.room.TypeConverters
-import com.bignerdranch.android.chapter_twelve.Crime
+import com.bignerdranch.android.chapter_thirteen.Crime
 import androidx.room.Database as Database1
 
 
